@@ -32,7 +32,7 @@ public class ProfileActivity extends AppCompatActivity {
         emailText = findViewById(R.id.label_email);
         homepageText = findViewById(R.id.label_homepage);
         aboutText = findViewById(R.id.label_about);
-        gambar = findViewById(R.id.image_profile_1);
+        gambar = findViewById(R.id.image_profile);
 
         Bundle extras = getIntent().getExtras();
         if (extras != null){
